@@ -15,48 +15,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        android:id="@+id/textView" />
-
-    <Button
-        android:text="Salvar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/salvar"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="79dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <EditText
+    <Button
+        android:text="SEGUNDA TELA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Nome"
-        android:ems="10"
-        android:layout_marginTop="75dp"
-        android:id="@+id/textNome"
+        android:onClick="segundaTela"
+        android:id="@+id/salvar"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_marginTop="62dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
-
-    <RadioButton
-        android:text="Masculino"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:id="@+id/radioButtonMasculino"
-        android:layout_below="@+id/textNome"
-        android:layout_centerHorizontal="true" />
-
-    <SeekBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/seekBar" />
 
 </RelativeLayout>
