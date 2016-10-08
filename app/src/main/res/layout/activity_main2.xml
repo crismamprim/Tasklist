@@ -20,4 +20,5 @@
         android:id="@+id/editText"
         android:text="Segunda Tela"
         android:singleLine="false" />
+
 </RelativeLayout>
